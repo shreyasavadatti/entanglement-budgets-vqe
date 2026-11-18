@@ -1,0 +1,9 @@
+interleaved  E0=-4.4221 gap=0.3585 peak floor=0.1238 at cut 4
+spin-sector  E0=-4.4221 gap=0.3585 peak floor=0.0534 at cut 3
+
+bottleneck ratio interleaved/spin-sector = 2.32x
+E0 identical to 3.55e-15 (relabelling)
+E=-4.4221  <N>=4.0000
+E=-4.0636  <N>=4.0000
+E=-4.0636  <N>=4.0000
+lowest half-filled (N=6) energy: -3.0926

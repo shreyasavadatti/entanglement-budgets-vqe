@@ -1,0 +1,38 @@
+(1) Within instance: does the lower certified floor identify the better layout?
+  G= 8: lowest-floor arm also had lowest error in 6/16 instances (38%);  sign test p=0.45;  median err(best floor) - err(worst floor) = +0.0022 (Wilcoxon p=0.528)
+        lowest-floor arm: ['wf_unc']   highest-floor arm counts: {'layer': 16}
+  G= 9: lowest-floor arm also had lowest error in 5/16 instances (31%);  sign test p=0.21;  median err(best floor) - err(worst floor) = +0.0032 (Wilcoxon p=0.130)
+        lowest-floor arm: ['wf_unc']   highest-floor arm counts: {'layer': 16}
+  G=11: lowest-floor arm also had lowest error in 1/16 instances (6%);  sign test p=0.00052;  median err(best floor) - err(worst floor) = +0.0174 (Wilcoxon p=0.000)
+        lowest-floor arm: ['wf_unc']   highest-floor arm counts: {'layer': 12, 'rand_con': 4}
+
+  50% agreement would mean the certified floor carries no information about
+  which layout trains better at fixed budget.
+(2) Fragmentation at G=5 (budget < n-1, so every allocation is disconnected)
+[ 0] edge(blk6):0.152/fl2.7e-02  offset(blk6):0.265/fl9.6e-03  centre(blk3):0.144/fl2.7e-02  waterfill(blk6):0.306/fl4.9e-03
+[ 1] edge(blk6):0.125/fl1.3e-02  offset(blk6):0.168/fl7.3e-03  centre(blk3):0.058/fl2.3e-02  waterfill(blk6):0.168/fl7.3e-03
+[ 2] edge(blk6):0.086/fl2.8e-02  offset(blk6):0.182/fl2.6e-02  centre(blk3):0.161/fl2.8e-02  waterfill(blk5):0.256/fl3.4e-03
+[ 3] edge(blk6):0.234/fl3.5e-02  offset(blk6):0.253/fl4.4e-02  centre(blk3):0.266/fl2.2e-02  waterfill(blk4):0.268/fl1.4e-02
+[ 4] edge(blk6):0.065/fl4.1e-03  offset(blk6):0.068/fl7.4e-03  centre(blk3):0.024/fl8.5e-03  waterfill(blk6):0.065/fl4.1e-03
+[ 5] edge(blk6):0.209/fl4.0e-02  offset(blk6):0.344/fl4.0e-02  centre(blk3):0.343/fl2.0e-02  waterfill(blk4):0.348/fl1.5e-02
+[ 6] edge(blk6):0.055/fl1.8e-02  offset(blk6):0.158/fl1.5e-02  centre(blk3):0.071/fl1.9e-02  waterfill(blk6):0.186/fl3.2e-03
+[ 7] edge(blk6):0.294/fl4.7e-02  offset(blk6):0.399/fl4.7e-02  centre(blk3):0.333/fl3.2e-02  waterfill(blk5):0.324/fl1.6e-02
+[ 8] edge(blk6):0.154/fl1.3e-02  offset(blk6):0.156/fl1.5e-02  centre(blk3):0.100/fl2.7e-02  waterfill(blk6):0.154/fl1.3e-02
+[ 9] edge(blk6):0.282/fl4.7e-02  offset(blk6):0.355/fl4.7e-02  centre(blk3):0.285/fl2.3e-02  waterfill(blk4):0.233/fl8.4e-03
+[10] edge(blk6):0.340/fl3.3e-02  offset(blk6):0.377/fl3.3e-02  centre(blk3):0.272/fl4.5e-02  waterfill(blk3):0.287/fl2.1e-02
+[11] edge(blk6):0.175/fl1.6e-02  offset(blk6):0.171/fl1.9e-02  centre(blk3):0.132/fl1.6e-02  waterfill(blk4):0.184/fl1.5e-02
+[12] edge(blk6):0.210/fl3.4e-03  offset(blk6):0.176/fl1.3e-02  centre(blk3):0.110/fl1.3e-02  waterfill(blk4):0.118/fl2.9e-03
+[13] edge(blk6):0.331/fl1.9e-02  offset(blk6):0.349/fl1.4e-02  centre(blk3):0.265/fl4.5e-02  waterfill(blk6):0.349/fl1.4e-02
+[14] edge(blk6):0.190/fl3.2e-02  offset(blk6):0.237/fl1.8e-02  centre(blk3):0.163/fl2.5e-02  waterfill(blk6):0.237/fl1.8e-02
+[15] edge(blk6):0.107/fl3.5e-02  offset(blk6):0.169/fl2.5e-02  centre(blk3):0.166/fl2.0e-02  waterfill(blk5):0.217/fl1.2e-02
+
+  medians:
+    edge       largest block=6.0  median floor=2.76e-02  median trained err=0.1825
+    offset     largest block=6.0  median floor=1.88e-02  median trained err=0.2099
+    centre     largest block=3.0  median floor=2.26e-02  median trained err=0.1618
+    waterfill  largest block=5.0  median floor=1.28e-02  median trained err=0.2350
+
+  edge-zeros vs centre-zeros: median delta = -0.0177, p = 0.5282, centre worse in 44% of instances
+  but the certified floor prefers centre-zeros in 44% of instances
+
+wrote expA_fragment.json

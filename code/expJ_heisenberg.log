@@ -1,0 +1,32 @@
+
+Connected disordered-Heisenberg control (n=8, 16 instances):
+
+Budget G = 7: median floor=5.012e-02  median err=6.495e-01  err/floor=13.0x
+  layer     med.err=0.6403  dmed=+0.0000 [+0.0000,+0.0000]  win=   0%  p=nan  floor_gain=1.00x  mean_zeros=0.00
+  wf_unc    med.err=0.6731  dmed=+0.0181 [+0.0078,+0.0325]  win=  19%  p=0.088  floor_gain=1.54x  mean_zeros=0.94
+  wf_con    med.err=0.6403  dmed=+0.0000 [+0.0000,+0.0000]  win=   0%  p=1.000  floor_gain=1.00x  mean_zeros=0.00
+  rand_con  med.err=0.6403  dmed=+0.0000 [+0.0000,+0.0000]  win=   0%  p=1.000  floor_gain=1.00x  mean_zeros=0.00
+  within-instance: lowest-floor wins 3/15 (20%), sign p=0.0352
+
+Budget G = 8: median floor=3.867e-02  median err=5.983e-01  err/floor=15.5x
+  layer     med.err=0.5891  dmed=+0.0000 [+0.0000,+0.0000]  win=   0%  p=nan  floor_gain=1.00x  mean_zeros=0.00
+  wf_unc    med.err=0.7087  dmed=+0.0088 [-0.0146,+0.0306]  win=  44%  p=0.404  floor_gain=3.35x  mean_zeros=0.75
+  wf_con    med.err=0.6403  dmed=-0.0000 [-0.0214,+0.0186]  win=  50%  p=0.980  floor_gain=1.54x  mean_zeros=0.00
+  rand_con  med.err=0.5829  dmed=+0.0000 [-0.0018,+0.0000]  win=  44%  p=0.861  floor_gain=1.00x  mean_zeros=0.00
+  within-instance: lowest-floor wins 7/16 (44%), sign p=0.804
+
+Budget G = 9: median floor=3.100e-02  median err=5.822e-01  err/floor=18.8x
+  layer     med.err=0.5829  dmed=+0.0000 [+0.0000,+0.0000]  win=   0%  p=nan  floor_gain=1.00x  mean_zeros=0.00
+  wf_unc    med.err=0.5822  dmed=-0.0106 [-0.0455,+0.0000]  win=  62%  p=0.058  floor_gain=3.49x  mean_zeros=0.00
+  wf_con    med.err=0.5822  dmed=-0.0106 [-0.0455,+0.0000]  win=  62%  p=0.058  floor_gain=3.49x  mean_zeros=0.00
+  rand_con  med.err=0.5740  dmed=-0.0061 [-0.0557,+0.0000]  win=  56%  p=0.231  floor_gain=1.00x  mean_zeros=0.00
+  within-instance: lowest-floor wins 9/16 (56%), sign p=0.804
+
+Budget G = 11: median floor=1.623e-03  median err=5.980e-01  err/floor=368.5x
+  layer     med.err=0.6189  dmed=+0.0000 [+0.0000,+0.0000]  win=   0%  p=nan  floor_gain=1.00x  mean_zeros=0.00
+  wf_unc    med.err=0.6217  dmed=-0.0124 [-0.0383,+0.0391]  win=  56%  p=0.980  floor_gain=62.89x  mean_zeros=0.00
+  wf_con    med.err=0.6217  dmed=-0.0124 [-0.0383,+0.0391]  win=  56%  p=0.980  floor_gain=62.89x  mean_zeros=0.00
+  rand_con  med.err=0.5289  dmed=-0.0697 [-0.1322,-0.0269]  win=  75%  p=0.017  floor_gain=1.23x  mean_zeros=0.00
+  within-instance: lowest-floor wins 7/16 (44%), sign p=0.804
+
+wrote expJ_heisenberg.json

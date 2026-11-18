@@ -1,0 +1,26 @@
+
+ordered  h/J=0.5
+  E0=-8.509082  global gap=1.456e-03   sector +: gap=2.2843
+  Lam_C(2^g)      : 0.5177  0.9993  0.9999  1.0000
+  floor (global)  : 7.02e-04  1.05e-06  1.91e-07  9.35e-11
+  floor (sector)  : 1.10e+00  1.65e-03  3.00e-04  1.47e-07
+  trained parity  : 4.5091  2.1454  1.4042
+  trained HEA     : 0.0091  0.0022  0.0022
+
+critical  h/J=1.0
+  E0=-10.251662  global gap=1.970e-01   sector +: gap=1.5607
+  Lam_C(2^g)      : 0.7508  0.9827  0.9997  1.0000
+  floor (global)  : 4.91e-02  3.40e-03  5.73e-05  1.75e-07
+  floor (sector)  : 3.89e-01  2.69e-02  4.54e-04  1.39e-06
+  trained parity  : 2.2517  0.7651  0.4991
+  trained HEA     : 0.2517  0.1375  0.1209
+
+paramagnetic  h/J=2.0
+  E0=-17.018164  global gap=2.003e+00   sector +: gap=4.5686
+  Lam_C(2^g)      : 0.9645  0.9858  1.0000  1.0000
+  floor (global)  : 7.11e-02  2.84e-02  2.63e-05  3.13e-08
+  floor (sector)  : 1.62e-01  6.49e-02  6.00e-05  7.13e-08
+  trained parity  : 1.0182  0.1865  0.1369
+  trained HEA     : 1.0182  0.1451  0.1356
+
+wrote expB_sector.json

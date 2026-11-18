@@ -1,0 +1,24 @@
+[ 0] layer: indep=0.8735 joint=0.8362 | wf: indep=0.9769 joint=0.9575
+[ 1] layer: indep=0.8483 joint=0.7972 | wf: indep=0.9167 joint=0.8787
+[ 2] layer: indep=0.7730 joint=0.6822 | wf: indep=0.9726 joint=0.9613
+[ 3] layer: indep=0.8739 joint=0.7986 | wf: indep=0.9478 joint=0.9244
+[ 4] layer: indep=0.8297 joint=0.7792 | wf: indep=0.8297 joint=0.7792
+[ 5] layer: indep=0.9006 joint=0.8311 | wf: indep=0.9625 joint=0.9369
+[ 6] layer: indep=0.6987 joint=0.5752 | wf: indep=0.9452 joint=0.9191
+[ 7] layer: indep=0.9122 joint=0.8712 | wf: indep=0.9709 joint=0.9523
+[ 8] layer: indep=0.8691 joint=0.8093 | wf: indep=0.8691 joint=0.8093
+[ 9] layer: indep=0.9101 joint=0.8895 | wf: indep=0.9841 joint=0.9726
+[10] layer: indep=0.9204 joint=0.8719 | wf: indep=0.9495 joint=0.9076
+[11] layer: indep=0.8695 joint=0.8309 | wf: indep=0.8819 joint=0.8396
+[12] layer: indep=0.9204 joint=0.8581 | wf: indep=0.9317 joint=0.9113
+[13] layer: indep=0.9574 joint=0.9430 | wf: indep=0.9693 joint=0.9529
+[14] layer: indep=0.8538 joint=0.8238 | wf: indep=0.9153 joint=0.8776
+[15] layer: indep=0.7629 joint=0.6537 | wf: indep=0.9172 joint=0.8790
+critical n=8 g=1: indep_cap=0.999552 joint_fit=0.998625  floors 1.65e-04 -> 5.07e-04
+critical n=8 g=2: indep_cap=1.000000 joint_fit=1.000000  floors 5.55e-08 -> 1.11e-07
+critical n=10 g=1: indep_cap=0.999248 joint_fit=0.997046  floors 2.25e-04 -> 8.83e-04
+critical n=10 g=2: indep_cap=0.999999 joint_fit=0.999998  floors 1.83e-07 -> 5.18e-07
+critical n=12 g=1: indep_cap=0.998910 joint_fit=0.994847  floors 2.74e-04 -> 1.29e-03
+critical n=12 g=2: indep_cap=0.999998 joint_fit=0.999994  floors 3.96e-07 -> 1.42e-06
+
+wrote expC_joint.json

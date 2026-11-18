@@ -1,0 +1,5 @@
+n= 6  global gap=6.892e-03  sector gap=2.4786  ratio=360
+n= 8  global gap=1.456e-03  sector gap=2.2843  ratio=1.57e+03
+n=10  global gap=3.207e-04  sector gap=2.1870  ratio=6.82e+03
+n=12  global gap=7.247e-05  sector gap=2.1319  ratio=2.94e+04
+fit: ratio grows as exp(0.734 n)

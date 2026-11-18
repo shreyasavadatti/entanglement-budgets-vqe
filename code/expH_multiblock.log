@@ -1,0 +1,56 @@
+Ensemble: medians over instances, and the worst case of error / largest possible floor
+G= 5 layer    indep=2.76e-02 mb=3.07e-02 max=3.65e-02 err=1.83e-01 | mb gain >1% in 13/16 (max x1.59) | err/max-floor min 2.1
+G= 5 wf_unc   indep=1.28e-02 mb=1.36e-02 max=1.87e-02 err=2.35e-01 | mb gain >1% in 12/16 (max x1.79) | err/max-floor min 7.6
+G= 7 layer    indep=1.97e-04 mb=1.97e-04 max=3.72e-04 err=6.41e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 50.6
+G= 7 wf_unc   indep=1.97e-04 mb=1.97e-04 max=3.72e-04 err=6.41e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 50.6
+G= 7 wf_con   indep=1.97e-04 mb=1.97e-04 max=3.72e-04 err=6.41e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 50.6
+G= 7 rand_con indep=1.97e-04 mb=1.97e-04 max=3.72e-04 err=6.41e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 50.6
+G= 8 layer    indep=1.97e-04 mb=1.97e-04 max=3.72e-04 err=5.89e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 37.2
+G= 8 wf_unc   indep=7.63e-05 mb=7.63e-05 max=1.81e-04 err=5.01e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 83.5
+G= 8 wf_con   indep=7.63e-05 mb=7.63e-05 max=1.81e-04 err=5.01e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 83.5
+G= 8 rand_con indep=1.67e-04 mb=1.67e-04 max=2.63e-04 err=5.51e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 40.7
+G= 9 layer    indep=1.97e-04 mb=1.97e-04 max=3.68e-04 err=5.20e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 35.4
+G= 9 wf_unc   indep=5.04e-05 mb=5.04e-05 max=6.31e-05 err=5.10e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 179.0
+G= 9 wf_con   indep=5.04e-05 mb=5.04e-05 max=6.31e-05 err=5.10e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 179.0
+G= 9 rand_con indep=1.40e-04 mb=1.40e-04 max=2.57e-04 err=6.15e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 83.7
+G=11 layer    indep=8.28e-05 mb=8.28e-05 max=1.21e-04 err=7.34e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 141.1
+G=11 wf_unc   indep=5.18e-06 mb=5.18e-06 max=5.20e-06 err=1.10e-01 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 1881.9
+G=11 wf_con   indep=5.18e-06 mb=5.18e-06 max=5.20e-06 err=1.10e-01 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 1881.9
+G=11 rand_con indep=7.33e-05 mb=7.33e-05 max=9.03e-05 err=5.06e-02 | mb gain >1% in 0/16 (max x1.00) | err/max-floor min 52.3
+
+G=5, per instance: interval for the best rank-only floor of each arm
+[ 0] layer [3.33e-02, 3.50e-02] err 0.152 | wf [8.14e-03, 9.09e-03] err 0.306 | higher floor: layer
+[ 1] layer [1.49e-02, 1.77e-02] err 0.125 | wf [1.04e-02, 1.06e-02] err 0.168 | higher floor: layer
+[ 2] layer [2.81e-02, 3.93e-02] err 0.086 | wf [4.72e-03, 4.78e-03] err 0.256 | higher floor: layer
+[ 3] layer [4.51e-02, 5.53e-02] err 0.234 | wf [1.43e-02, 2.08e-02] err 0.268 | higher floor: layer
+[ 5] layer [6.23e-02, 6.72e-02] err 0.209 | wf [2.14e-02, 2.51e-02] err 0.348 | higher floor: layer
+[ 6] layer [1.79e-02, 2.52e-02] err 0.055 | wf [3.78e-03, 4.80e-03] err 0.186 | higher floor: layer
+[ 7] layer [5.69e-02, 6.89e-02] err 0.294 | wf [2.10e-02, 2.55e-02] err 0.324 | higher floor: layer
+[ 9] layer [5.47e-02, 5.81e-02] err 0.282 | wf [1.33e-02, 1.44e-02] err 0.233 | higher floor: layer
+[10] layer [4.56e-02, 5.24e-02] err 0.340 | wf [3.69e-02, 3.78e-02] err 0.287 | higher floor: layer
+[11] layer [1.92e-02, 2.08e-02] err 0.175 | wf [1.91e-02, 1.97e-02] err 0.184 | higher floor: overlap
+[12] layer [5.38e-03, 6.02e-03] err 0.210 | wf [2.90e-03, 3.76e-03] err 0.118 | higher floor: layer
+[13] layer [2.46e-02, 2.60e-02] err 0.331 | wf [2.12e-02, 2.15e-02] err 0.349 | higher floor: layer
+[14] layer [3.52e-02, 3.80e-02] err 0.190 | wf [2.57e-02, 2.64e-02] err 0.237 | higher floor: layer
+[15] layer [4.16e-02, 5.14e-02] err 0.107 | wf [1.23e-02, 1.79e-02] err 0.217 | higher floor: layer
+identical allocations 2, layer floor certainly higher 13, wf floor certainly higher 0, undecided 1
+
+Critical chain, exact
+n=  8 g=1 indep=1.653e-04 mb=1.653e-04 sum=5.608e-04 ratio sum/indep=3.4
+n=  8 g=2 indep=5.551e-08 mb=5.551e-08 sum=1.137e-07 ratio sum/indep=2.0
+n= 10 g=1 indep=2.249e-04 mb=2.249e-04 sum=1.025e-03 ratio sum/indep=4.6
+n= 10 g=2 indep=1.833e-07 mb=1.833e-07 sum=5.465e-07 ratio sum/indep=3.0
+n= 12 g=1 indep=2.737e-04 mb=2.737e-04 sum=1.571e-03 ratio sum/indep=5.7
+n= 12 g=2 indep=3.958e-07 mb=3.958e-07 sum=1.548e-06 ratio sum/indep=3.9
+
+Critical chain, free fermion
+n= 16 g=1 indep=3.446e-04 sum=2.815e-03 ratio=8.2
+n= 16 g=2 indep=1.025e-06 sum=5.957e-06 ratio=5.8
+n= 32 g=1 indep=4.502e-04 sum=8.309e-03 ratio=18.5
+n= 32 g=2 indep=4.403e-06 sum=6.162e-05 ratio=14.0
+n= 64 g=1 indep=4.514e-04 sum=1.826e-02 ratio=40.5
+n= 64 g=2 indep=9.524e-06 sum=3.041e-04 ratio=31.9
+n=128 g=1 indep=3.838e-04 sum=2.445e-02 ratio=63.7
+n=128 g=2 indep=1.393e-05 sum=9.853e-04 ratio=70.7
+
+wrote expH_multiblock.json

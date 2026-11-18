@@ -1,0 +1,41 @@
+I1  distance lemma on random circuits
+  2019 checks; largest violation of Lambda_psi(K) >= cos^2(Theta): 2.0e-15
+
+I2  singlet target, p entanglers on the central bond
+  p=1 th=0.05  trained=1.8003  budget=1.8003 (m=1)  triangle=1.7073  rank=8.9e-16  ratio=1.0000
+  p=1 th=0.10  trained=1.6027  budget=1.6027 (m=1)  triangle=1.3954  rank=8.9e-16  ratio=1.0000
+  p=1 th=0.15  trained=1.4090  budget=1.4090 (m=1)  triangle=1.0653  rank=8.9e-16  ratio=1.0000
+  p=1 th=0.25  trained=1.0411  budget=1.0411 (m=1)  triangle=0.3556  rank=8.9e-16  ratio=1.0000
+  p=2 th=0.05  trained=1.6027  budget=1.6027 (m=2)  triangle=1.3946  rank=8.9e-16  ratio=1.0000
+  p=2 th=0.10  trained=1.2212  budget=1.2212 (m=2)  triangle=0.7110  rank=8.9e-16  ratio=1.0000
+  p=2 th=0.15  trained=0.8707  budget=0.8707 (m=2)  triangle=0.0000  rank=8.9e-16  ratio=1.0000
+  p=2 th=0.25  trained=0.3171  budget=0.3171 (m=2)  triangle=0.0000  rank=8.9e-16  ratio=1.0000
+  p=3 th=0.05  trained=1.4090  budget=1.4090 (m=3)  triangle=1.0619  rank=8.9e-16  ratio=1.0000
+  p=3 th=0.10  trained=0.8707  budget=0.8707 (m=3)  triangle=0.0000  rank=8.9e-16  ratio=1.0000
+  p=3 th=0.15  trained=0.4333  budget=0.4333 (m=3)  triangle=0.0000  rank=8.9e-16  ratio=1.0000
+  p=3 th=0.25  trained=0.0050  budget=0.0050 (m=3)  triangle=0.0000  rank=8.9e-16  ratio=1.0000
+
+I3  critical TFIM n=8, p layers of exp(-i theta ZZ) on every bond
+  E0=-9.8380  gap=0.3691
+  p=1 th=0.020  trained=0.3579  budget=3.74e-02  triangle=2.79e-02  rank=1.65e-04
+  p=1 th=0.050  trained=0.2763  budget=3.10e-02  triangle=6.29e-03  rank=1.65e-04
+  p=1 th=0.100  trained=0.2132  budget=2.16e-02  triangle=1.65e-04  rank=1.65e-04
+  p=1 th=0.200  trained=0.1886  budget=7.68e-03  triangle=1.65e-04  rank=1.65e-04
+  p=1 th=0.785  trained=0.2308  budget=1.65e-04  triangle=1.65e-04  rank=1.65e-04
+  p=2 th=0.020  trained=0.2988  budget=3.30e-02  triangle=1.36e-02  rank=5.55e-08
+  p=2 th=0.050  trained=0.2093  budget=2.15e-02  triangle=5.55e-08  rank=5.55e-08
+  p=2 th=0.100  trained=0.1634  budget=7.59e-03  triangle=5.55e-08  rank=5.55e-08
+  p=2 th=0.200  trained=0.1327  budget=5.55e-08  triangle=5.55e-08  rank=5.55e-08
+  p=2 th=0.785  trained=0.1413  budget=5.55e-08  triangle=5.55e-08  rank=5.55e-08
+  p=3 th=0.020  trained=0.2571  budget=2.89e-02  triangle=9.68e-13  rank=9.68e-13
+  p=3 th=0.050  trained=0.1752  budget=1.37e-02  triangle=9.68e-13  rank=9.68e-13
+  p=3 th=0.100  trained=0.1295  budget=7.09e-04  triangle=9.68e-13  rank=9.68e-13
+  p=3 th=0.200  trained=0.0914  budget=9.68e-13  triangle=9.68e-13  rank=9.68e-13
+  p=3 th=0.785  trained=0.1015  budget=9.68e-13  triangle=9.68e-13  rank=9.68e-13
+  p=4 th=0.020  trained=0.2295  budget=2.51e-02  triangle=2.46e-16  rank=2.05e-16
+  p=4 th=0.050  trained=0.1537  budget=7.59e-03  triangle=2.46e-16  rank=2.05e-16
+  p=4 th=0.100  trained=0.1067  budget=2.05e-16  triangle=2.46e-16  rank=2.05e-16
+  p=4 th=0.200  trained=0.0584  budget=2.05e-16  triangle=2.46e-16  rank=2.05e-16
+  p=4 th=0.785  trained=0.0047  budget=2.05e-16  triangle=2.46e-16  rank=2.05e-16
+
+wrote expI_angle_budget.json

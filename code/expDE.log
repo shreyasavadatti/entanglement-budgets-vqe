@@ -1,0 +1,34 @@
+free-fermion vs exact diagonalisation (open critical TFIM)
+ n= 8  S: 0.357161385 vs 0.357161385   gap: 0.369073438 vs 0.369073438   sector gap: 1.463725398 vs 1.463725398   max|dp|=8.88e-16
+ n=10  S: 0.379052405 vs 0.379052405   gap: 0.298920374 vs 0.298920374   sector gap: 1.189004110 vs 1.189004110   max|dp|=1.89e-15
+ n=12  S: 0.396516211 vs 0.396516211   gap: 0.251162078 vs 0.251162078   sector gap: 1.000687336 vs 1.000687336   max|dp|=2.11e-15
+
+exact free-fermion certificate inputs, critical TFIM (open)
+ n= 12 S=0.3965 gap=2.512e-01 gap_sec=1.001e+00 Lam(2)=0.998910 floor_g1=2.74e-04 g*(1e-2)=1 g*(1e-3)=2 g*(1e-4)=2
+ n= 16 S=0.4234 gap=1.903e-01 gap_sec=7.596e-01 Lam(2)=0.998190 floor_g1=3.45e-04 g*(1e-2)=1 g*(1e-3)=2 g*(1e-4)=2
+ n= 24 S=0.4602 gap=1.282e-01 gap_sec=5.123e-01 Lam(2)=0.996728 floor_g1=4.19e-04 g*(1e-2)=1 g*(1e-3)=2 g*(1e-4)=2
+ n= 32 S=0.4857 gap=9.665e-02 gap_sec=3.864e-01 Lam(2)=0.995343 floor_g1=4.50e-04 g*(1e-2)=1 g*(1e-3)=2 g*(1e-4)=2
+ n= 48 S=0.5211 gap=6.477e-02 gap_sec=2.590e-01 Lam(2)=0.992868 floor_g1=4.62e-04 g*(1e-2)=1 g*(1e-3)=2 g*(1e-4)=3
+ n= 64 S=0.5458 gap=4.871e-02 gap_sec=1.948e-01 Lam(2)=0.990733 floor_g1=4.51e-04 g*(1e-2)=1 g*(1e-3)=2 g*(1e-4)=3
+ n= 96 S=0.5804 gap=3.256e-02 gap_sec=1.302e-01 Lam(2)=0.987189 floor_g1=4.17e-04 g*(1e-2)=2 g*(1e-3)=2 g*(1e-4)=3
+ n=128 S=0.6048 gap=2.445e-02 gap_sec=9.779e-02 Lam(2)=0.984302 floor_g1=3.84e-04 g*(1e-2)=2 g*(1e-3)=2 g*(1e-4)=3
+
+ Calabrese-Cardy fit over n>=32:  c = 0.5151   (exact Ising c = 0.5)
+
+triviality threshold across the phase diagram (n=64)
+ h/J= 0.4  S=0.6943  g*: 1 1 2
+ h/J= 0.6  S=0.6995  g*: 1 1 2
+ h/J= 0.7  S=0.7061  g*: 1 2 2
+ h/J= 0.8  S=0.7195  g*: 1 2 2
+ h/J= 0.9  S=0.7497  g*: 2 2 3
+ h/J= 0.9  S=0.7379  g*: 2 2 3
+ h/J= 1.0  S=0.5458  g*: 1 2 3
+ h/J= 1.1  S=0.3989  g*: 1 2 2
+ h/J= 1.1  S=0.3288  g*: 1 2 2
+ h/J= 1.2  S=0.2534  g*: 1 1 2
+ h/J= 1.4  S=0.1770  g*: 1 1 1
+ h/J= 1.7  S=0.1202  g*: 1 1 1
+ h/J= 2.0  S=0.0888  g*: 1 1 1
+ h/J= 2.5  S=0.0596  g*: 1 1 1
+
+wrote expDE.json

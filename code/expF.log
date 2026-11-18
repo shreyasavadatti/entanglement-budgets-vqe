@@ -1,0 +1,43 @@
+F1  angle-resolved certificate, n=4 Heisenberg singlet
+  E0=-9.0000  gap=4.0000  Lam(1)=0.5000  Lam(2)=1.0000
+  th=0.0500 s=0.0500  trained=1.8003  exact-rank=8.9e-16  tight=1.8003  triangle=1.7073   saturation=1.000
+  th=0.1500 s=0.1494  trained=1.4090  exact-rank=8.9e-16  tight=1.4090  triangle=1.0653   saturation=1.000
+  th=0.3000 s=0.2955  trained=0.8707  exact-rank=8.9e-16  tight=0.8707  triangle=0.0000   saturation=1.000
+  th=0.5000 s=0.4794  trained=0.3171  exact-rank=8.9e-16  tight=0.3171  triangle=0.0000   saturation=1.000
+  th=0.7854 s=0.7071  trained=-0.0000  exact-rank=8.9e-16  tight=0.0000  triangle=0.0000   saturation=-0.004
+
+F2  one-sweep all-bond ZZ circuit, critical TFIM n=6 (open)
+  The tight single-entangler bound applies at every cut: for cut k the
+  other ZZ gates and all rotations are cut-local.
+  E0=-7.2962  gap=0.4821
+  th=0.0200  trained=0.3330  exact-rank=9.62e-05  angle-resolved=0.0429  triangle=0.0300
+  th=0.0500  trained=0.2647  exact-rank=9.62e-05  angle-resolved=0.0350  triangle=0.0016
+  th=0.1500  trained=0.1790  exact-rank=9.62e-05  angle-resolved=0.0143  triangle=0.0000
+  th=0.3000  trained=0.1840  exact-rank=9.62e-05  angle-resolved=0.0003  triangle=0.0000
+  th=0.5000  trained=0.1974  exact-rank=9.62e-05  angle-resolved=0.0001  triangle=0.0000
+  th=0.7854  trained=0.2130  exact-rank=9.62e-05  angle-resolved=0.0001  triangle=0.0000
+
+F3  scheduling: identical g_C, different schedule
+  all-NN, 2 layers      (14 gates, depth 2): g_C=[2, 2, 2, 2, 2, 2, 2]  floor=5.73e-05  trained err=0.1211
+  staggered, 2 layers   ( 7 gates, depth 2): g_C=[1, 1, 1, 1, 1, 1, 1]  floor=3.40e-03  trained err=0.1508
+  staggered, 4 layers   (14 gates, depth 4): g_C=[2, 2, 2, 2, 2, 2, 2]  floor=5.73e-05  trained err=0.1206
+
+F4  XXZ n=8 periodic: entropy vs certificate vs trained error
+  Jz= 0.0  S=1.506 bits  gap=0.3978  Lam(2)=0.7975  floor=8.055e-02  trained err=0.5552
+  Jz= 0.5  S=1.517 bits  gap=1.0453  Lam(2)=0.7742  floor=2.360e-01  trained err=0.9693
+  Jz= 1.0  S=1.465 bits  gap=0.5175  Lam(2)=0.8699  floor=6.732e-02  trained err=0.5921
+  Jz= 2.0  S=1.235 bits  gap=0.1226  Lam(2)=0.9627  floor=4.573e-03  trained err=0.2122
+  Jz= 4.0  S=1.076 bits  gap=0.0184  Lam(2)=0.9916  floor=1.539e-04  trained err=0.0756
+  rank corr with trained error:  entropy rho=0.900   certificate rho=0.900
+
+F5  core tables
+  TFIM n=6 periodic critical: E0=-7.7274 gap=0.2633
+    g=0 R= 1 Lam=0.7712 floor=6.02e-02
+    g=1 R= 2 Lam=0.9891 floor=2.86e-03
+    g=2 R= 4 Lam=0.9999 floor=1.78e-05
+    g=3 R= 8 Lam=1.0000 floor=1.17e-16
+    n=4 g=0: Efloor=-5.1471  E_VQE=-5.0000  margin=1.47e-01
+    n=4 g=1: Efloor=-5.2246  E_VQE=-5.0498  margin=1.75e-01
+    n=4 g=2: Efloor=-5.2263  E_VQE=-5.2263  margin=1.19e-13
+
+wrote expF.json
